@@ -1,0 +1,14 @@
+F:\DotNet\C#\SchoolHrAdministration\SchoolHRAdministration\bin\Debug\net6.0\SchoolHRAdministration.exe
+F:\DotNet\C#\SchoolHrAdministration\SchoolHRAdministration\bin\Debug\net6.0\SchoolHRAdministration.deps.json
+F:\DotNet\C#\SchoolHrAdministration\SchoolHRAdministration\bin\Debug\net6.0\SchoolHRAdministration.runtimeconfig.json
+F:\DotNet\C#\SchoolHrAdministration\SchoolHRAdministration\bin\Debug\net6.0\SchoolHRAdministration.dll
+F:\DotNet\C#\SchoolHrAdministration\SchoolHRAdministration\bin\Debug\net6.0\SchoolHRAdministration.pdb
+F:\DotNet\C#\SchoolHrAdministration\SchoolHRAdministration\obj\Debug\net6.0\SchoolHRAdministration.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNet\C#\SchoolHrAdministration\SchoolHRAdministration\obj\Debug\net6.0\SchoolHRAdministration.AssemblyInfoInputs.cache
+F:\DotNet\C#\SchoolHrAdministration\SchoolHRAdministration\obj\Debug\net6.0\SchoolHRAdministration.AssemblyInfo.cs
+F:\DotNet\C#\SchoolHrAdministration\SchoolHRAdministration\obj\Debug\net6.0\SchoolHRAdministration.csproj.CoreCompileInputs.cache
+F:\DotNet\C#\SchoolHrAdministration\SchoolHRAdministration\obj\Debug\net6.0\SchoolHRAdministration.dll
+F:\DotNet\C#\SchoolHrAdministration\SchoolHRAdministration\obj\Debug\net6.0\refint\SchoolHRAdministration.dll
+F:\DotNet\C#\SchoolHrAdministration\SchoolHRAdministration\obj\Debug\net6.0\SchoolHRAdministration.pdb
+F:\DotNet\C#\SchoolHrAdministration\SchoolHRAdministration\obj\Debug\net6.0\SchoolHRAdministration.genruntimeconfig.cache
+F:\DotNet\C#\SchoolHrAdministration\SchoolHRAdministration\obj\Debug\net6.0\ref\SchoolHRAdministration.dll
