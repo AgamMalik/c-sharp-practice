@@ -1,0 +1,40 @@
+> Task
+-encapsulation over threading
+-runs threads parallely
+-TPL automatically uses code in multicore...unlike threads where all the functions try to run on a single core by time slicing or context switching.
+-task does uses threads, but it adds just some extra logic to it.
+- define: Task t1 = new Task (funName); t1.Start();
+- in async/await  use Task as return type when your asynchronous method doesn't return a result, and use Task<T> as return type when it does.
+
+
+
+> Thread
+- define: Thread t1 = new Thread (new ThreadStart funName); t1.Start();
+
+
+--------------------------------------------------------
+
+
+> Async
+.-here running fast(performance) is not the goal
+.-concurrent...like threads...
+.-working on 1 core
+.-max utilization of resources
+.-here tasks are corelated (like first do this..then wait..then do that..then wait..then do this ..then wait..then do that...then wait and so on)
+.- eg : in web apis
+.The reason you want to use async/await on a web server is that work will be done in its own 'world' (a thread) instead of sharing with the thread the web app is on.  Thus you can better serve lots of requests at the same time.
+.
+.
+.
+> Parallel
+- when two tasks are not connected with each other.
+- TPL
+- performance is goal
+
+
+-----------------------------------------------------------
+
+> Delegates
+-reference pointers of functions
+-used to call function indirectly
+-eg: we can call multiple functions of same signature with a same delegate.(eg: add fuc, sub fun, mult func, div fun).....basically encapsulation.......
