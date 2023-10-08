@@ -38,3 +38,38 @@
 -reference pointers of functions
 -used to call function indirectly
 -eg: we can call multiple functions of same signature with a same delegate.(eg: add fuc, sub fun, mult func, div fun).....basically encapsulation.......
+
+
+
+.............................................................
+
+>  Abstraction
+-used to display only necessary features of an object to other classes.
+-hiding the implementation details(body of methods) from the user , only providing functionanlity.
+-user will have the info on what the object does instead of how it does.
+-to represent the essential features without representing the background details.
+
+
+> Abstract class
+- we cant make object of abstract class and interface .
+- we use its properties in child class using inheritence.
+-we make objects of its child classes.
+- eg: characteristics common in student and teacher class are declared in person(abstract) class... we make person class abstract because we dont need to create its object..we only need to create object of student, teacher etc..
+
+> Abstract methods
+- no body, no implementation. 
+- child class will give body and implementation to this abstract method.
+- if we dont give body to the abstract method in child class then it will make that child class an abstract class too.
+- we use abstract method in child class using override keyword.
+
+
+
+> Interface
+- like abstract class. 
+- all the members are by default abstract.
+- only signature and declaration of members in interface.
+- we implements from parent class, not inherit.
+- use interface keyword.
+- all the members are by default public
+- can be used in multiple inheritence.
+- interface doesnt have fields(variables )
