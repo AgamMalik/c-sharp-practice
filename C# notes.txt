@@ -56,6 +56,7 @@
 -we make objects of its child classes.
 - eg: characteristics common in student and teacher class are declared in person(abstract) class... we make person class abstract because we dont need to create its object..we only need to create object of student, teacher etc..
 - not support multiple inheritence. 
+- can have constructors unlike interfaces..
 
 > Abstract methods
 - no body, no implementation. 
@@ -74,6 +75,8 @@
 - all the members are by default public
 - can be used in multiple inheritence.
 - interface doesnt have fields(variables )
+- no constructor.
+- we use interfaces in dependency injection.
 
 - we can store object of child class in parent reference variable.
 - eg : i1 obj1 = new MyClass();........................ here i1 is parent interface and MyClass is child class................mostly used for explicit implementation of interfaces...  
