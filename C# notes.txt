@@ -69,6 +69,7 @@
 > Interface
 - like abstract class. 
 - all the members are by default abstract.
+	- we must give body and implementation of all the member of interface in child class.
 - only signature and declaration of members in interface.
 - we implements from parent class, not inherit.
 - use interface keyword.
@@ -77,7 +78,18 @@
 - interface doesnt have fields(variables )
 - no constructor.
 - we use interfaces in dependency injection.
+- we use interfaces when we have to have some must-required members(data) in child class...because all the members of interface have to be defined in child class.
 
 - we can store object of child class in parent reference variable.
 - eg : i1 obj1 = new MyClass();........................ here i1 is parent interface and MyClass is child class................mostly used for explicit implementation of interfaces...  
 - we use this way to call methods of particular interface in an object of child class.
+
+
+
+.......................................................................
+
+> Dependency injection
+- loose coupling.
+- use interfaces.
+- classes communicate through interfaces rather than other concrete classes.
+- we can store child class object in parent class reference.(variable)
