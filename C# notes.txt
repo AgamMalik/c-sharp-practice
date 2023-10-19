@@ -93,3 +93,12 @@
 - use interfaces.
 - classes communicate through interfaces rather than other concrete classes.
 - we can store child class object in parent class reference.(variable)
+
+
+
+
+.....................................................................
+
+
+> Constructors
+- Constructors in C# (and in many other object-oriented programming languages) do not have a return type, including void, for a fundamental reason: their primary purpose is to initialize an object, not to return a value.
